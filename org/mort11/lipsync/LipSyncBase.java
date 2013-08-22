@@ -44,7 +44,7 @@ public abstract class LipSyncBase {
 	public final String CONTINUE = "LipSync_Continue";
 	public final String DONE = "LipSync_Done";
 	public final char ETB = 0x17;
-	public final int TIMEOUT = 300;
+	public final int TIMEOUT = 30;
 
 	private int totalBytes = 0;
 	private long time;
